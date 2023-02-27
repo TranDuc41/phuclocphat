@@ -286,6 +286,19 @@
     color: var(--primary) !important;
 }
 
+@media (max-width: 767px){
+.col-md-6 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+.w-50{
+    width: 100% !important;
+}
+.border-end{
+    display: none;
+}
+}
+
 
 /*** Testimonial ***/
 .testimonial-carousel .owl-item .testimonial-item img {
@@ -382,3 +395,27 @@
 .footer .copyright a:hover {
     color: var(--primary);
 }
+
+/* Phân trang */
+.pagination {
+    justify-content: center;
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+  }
+  
+  .pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .pagination a:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 5px;
+  }
