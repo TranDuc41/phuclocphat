@@ -291,6 +291,9 @@
     flex: 0 0 auto;
     width: 50%;
 }
+.get-link{
+    display: none;
+}
 .w-50{
     width: 100% !important;
 }
@@ -609,4 +612,15 @@
 
 .bbb_viewed_item.is_new .item_new {
     display: inline-block
+}
+
+/* Search */
+.search {
+    width: 500px;
+}
+
+@media (max-width: 767px){
+    .search {
+        width: inherit;
+    }
 }
