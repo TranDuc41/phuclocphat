@@ -287,6 +287,12 @@
 }
 
 @media (max-width: 767px){
+
+/* navbar */
+.setnone {
+    display: inherit !important;
+}
+
 .col-md-6 {
     flex: 0 0 auto;
     width: 50%;
@@ -309,8 +315,15 @@
 .display-5 {
     margin-top: 20px;
 }
+/* cart */
+.txt-center {
+    text-align: center;
+}
 }
 
+.setnone {
+    display: none;
+}
 
 /*** Testimonial ***/
 .testimonial-carousel .owl-item .testimonial-item img {
